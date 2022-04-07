@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import MusicList from './components/MusicList';
+import MusicList from '../components/MusicList';
 
 const MusicChartBox = () =>{
 
@@ -20,10 +20,11 @@ const MusicChartBox = () =>{
     // anonymus function to setSongs to songs we want to feed to page
 }
 
+// pass in argument for the props
+
 return(
     <div>
         <MusicList songs={songs}/>
-        {/* pass in argument for the props */}
     </div>
 
 )

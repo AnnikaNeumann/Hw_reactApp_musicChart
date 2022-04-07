@@ -5,7 +5,7 @@ import MusicDetails from "./MusicDetails";
 
 const MusicList = ( { songs }) => {
 
-// We map through the songs array which takes in song and index as arguments
+// We map through the songs array which takes in song and index as parameters
     const songList = songs.map((song, index) =>{
         <MusicDetails song = {song} key={index}/>
 // We want to get the prop to render each song and the index (parameters)
