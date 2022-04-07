@@ -9,7 +9,8 @@ function App() {
     <h1>Music Chart -Let's listen to the best tunes in town</h1>
     <MusicChartBox />
     </div>
-   
+  // <MusicChartBox /> JSX Element - is in container, top of application structure
+
 )
 }
 
